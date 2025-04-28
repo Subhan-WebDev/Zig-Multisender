@@ -243,7 +243,7 @@ function App() {
             </div>
 
             {csvData.length > 0 && (
-              <div className="mb-4 overflow-auto h-[16rem] bg-transparen p-4 rounded">
+              <div className="mb-4 overflow-auto h-[10rem] bg-transparen p-4 rounded">
                 <h2 className="font-bold mb-2 text-black">CSV Preview</h2>
                 <table className="w-full text-sm border-1 border-[#E32B2B]">
                   <thead className='bg-[#e32b2b52]'>
