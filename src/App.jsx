@@ -3,6 +3,7 @@ import { SigningStargateClient } from '@cosmjs/stargate';
 import Papa from 'papaparse';
 import logo from '../src/assets/cclogo.png'
 import multisendimg from '../src/assets/multisend img.png'
+import bg from '../src/assets/CC - Multi sender bg.png'
 import connectwallet from '../src/assets/connect wallet button.png'
 import txbutton from '../src/assets/tx button.png'
 
@@ -126,7 +127,7 @@ function App() {
       className="relative h-[100vh]"
       style={{
         fontFamily: '"Pink Chicken", cursive',
-        backgroundImage: 'url("../src/assets/CC - Multi sender bg.png")',
+        backgroundImage: `url(${bg})`,
         backgroundPosition: "center",
       }}
     >
@@ -141,7 +142,7 @@ function App() {
               className="text-white font-bold px-6 py-2 rounded shadow-lg cursor-pointer"
               style={{
                 fontFamily: '"Pink Chicken", cursive',
-                backgroundImage: 'url("../src/assets/connect wallet button.png")',
+                backgroundImage: `url(${connectwallet})`,
                 backgroundPosition: "center",
               }}
             >
