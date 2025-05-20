@@ -25,7 +25,7 @@ function App() {
   const connectWallet = async () => {
     try {
       if (!window.leap) throw new Error("Leap wallet extension not found.");
-      const chainId = "zig-test-1";
+      const chainId = "zig-test-2";
       await window.leap.enable(chainId);
       const signer = window.leap.getOfflineSigner(chainId);
       const accounts = await signer.getAccounts();
